@@ -1,0 +1,29 @@
+安装Anaconda。
+
+建立环境：
+deactivate
+conda update -n base conda
+conda update --all
+conda create -n interview python=3.6
+conda info --e
+activate interview
+
+conda服务器在国外，速度非常慢，需要加入国内清华的镜像。
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+
+安装Spacy包：
+conda uninstall spacy
+conda install spacy # 安装在默认的Python环境中
+conda install -n interview spacy # 安装在interview环境中
+
+安装英文包：
+python -m spacy download en
+pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.0.0/en_core_web_sm-2.0.0.tar.gz
+
+安装中文包：
+把zh_core_web_sm-2.0.5.tar.gz拷贝到当前路径下，
+pip install zh_core_web_sm-2.0.5.tar.gz
+python -m spacy link zh_core_web_sm zh
+
+以上link也许会有问题，解决起来是比较繁琐的……
+https://stackoverflow.com/questions/43459437/spacy-link-error
