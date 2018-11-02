@@ -1,0 +1,33 @@
+﻿云计算 5
+创新办 3 nz
+好用 30
+你妹 e
+easy_install 3 eng
+牛B哄哄 i
+流弊 l
+刘强东 nr
+魔都 ns
+八一双鹿 3 nt
+哥哥 nz
+妹妹 nz
+你妹啊 y
+
+AI 200 nz
+Java 300 nz
+java 300 nz
+Python 300 nz
+python 300 nz
+机器学习 100 nz
+深度学习 100 nz
+虚拟机 100 nz
+JVM 50 nz
+Spring 50 nz
+spring 50 nz
+consul 1 nz
+etcd 1 nz
+区块链 100 nz
+block\ chain 100 nz
+redis 50 nz
+kafka 50 nz
+人月神话 1 nz
+爬虫 50 nz
