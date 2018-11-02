@@ -4,27 +4,27 @@ AI面试项目。 由候选人答题，由机器评分。
 
 ### Install dependency:
 - 需要安装SpaCy模块，具体方法见“Spacy安装命令.txt”。
-- [就算点我也未必行](http://gitlab.lujs.cn/ai/interview-app/blob/master/Spacy%EF%BC%88Win%E7%8E%AF%E5%A2%83%EF%BC%89%E5%AE%89%E8%A3%85%E5%91%BD%E4%BB%A4.txt)
+- [就算点我也未必行](https://github.com/wangdi917/AI-Interview/blob/master/Spacy%EF%BC%88Win%E7%8E%AF%E5%A2%83%EF%BC%89%E5%AE%89%E8%A3%85%E5%91%BD%E4%BB%A4.txt)
 
 ### Directory tree:
 ```
 interview-app/
 ├── data
-│   └── Java_Simple.xls 			# Java面试数据
+│   └── Java_Simple.xls 		# Java面试数据
 ├── src
-│   ├── main.py 					# 王博士讳迪写的主程序代码
+│   ├── main.py 			# 王博士讳迪写的主程序代码
 │   ├── interview_generic.py 		# 普通面试类代码
 │   ├── interview_JavaEng.py 		# Java面试类代码
-│   ├── log.py 					# 日志代码
-│   ├── const.py 					# 常数定义代码
-│   └── approaches 				# 王博士讳迪写的Java面试类面试评分代码
-├── lib 							# 中文Python自然语言处理模块
+│   ├── log.py 				# 日志代码
+│   ├── const.py 			# 常数定义代码
+│   └── approaches 			# 王博士讳迪写的Java面试类面试评分代码
+├── lib 				# 中文Python自然语言处理模块
 │   ├── cc.zh.300.vec.gz
 │   ├── zh_core_web_sm-2.0.5.tar.gz
 │   └── customized_jieba_dict.txt
-├── models 						# 训练生成的模型
-├── tests 						# 模型测试
-├── settings.ini 					# 环境变量设置
+├── models 				# 训练生成的模型
+├── tests 				# 模型测试
+├── settings.ini 			# 环境变量设置
 └── README.md
 
 ```
